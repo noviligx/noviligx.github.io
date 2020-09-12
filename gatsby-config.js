@@ -1,7 +1,7 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://noviligx.github.io/'
 
 module.exports = {
   siteMetadata: {
@@ -28,10 +28,10 @@ module.exports = {
     ],
     author: {
       name: 'John Doe',
-      email: '#',
-      telegram: '#',
+      email: 'it@noviligx.com',
+      telegram: 'https://t.me/haarping',
       twitter: '#',
-      github: '#',
+      github: 'https://github.com/noviligx',
       rss: '#',
       vk: '#',
     },
@@ -124,7 +124,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
+      options: { trackingId: '' },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
