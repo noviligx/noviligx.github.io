@@ -10,7 +10,7 @@ module.exports = {
     title: 'Blog by Ilya Novikov',
     subtitle:
       'Мой персональный блог начинающего веб-разработчика.',
-    copyright: '© All rights reserved.',
+    copyright: '© 2020.',
     disqusShortname: '',
     menu: [
       {
@@ -29,9 +29,11 @@ module.exports = {
     author: {
       name: 'Ilya Novikov',
       email: 'it@noviligx.com',
-      telegram: 'noviligx',
+      telegram: 'haarping',
+      twitter: 'noviligx',
       github: 'noviligx',
       rss: '#',
+      vk: 'noviligx',
     },
   },
   plugins: [
