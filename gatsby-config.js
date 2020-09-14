@@ -7,33 +7,31 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: 'Blog by Ilya Novikov',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'Мой персональный блог начинающего веб-разработчика.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
       {
-        label: 'Articles',
+        label: 'Статьи',
         path: '/',
       },
       {
-        label: 'About me',
+        label: 'Обо мне',
         path: '/about/',
       },
       {
-        label: 'Contact me',
+        label: 'Контакты',
         path: '/contact/',
       },
     ],
     author: {
-      name: 'John Doe',
+      name: 'Ilya Novikov',
       email: 'it@noviligx.com',
-      telegram: 'https://t.me/haarping',
-      twitter: '#',
-      github: 'https://github.com/noviligx',
+      telegram: 'noviligx',
+      github: 'noviligx',
       rss: '#',
-      vk: '#',
     },
   },
   plugins: [
