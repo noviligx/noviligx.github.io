@@ -29,10 +29,10 @@ module.exports = {
     author: {
       name: 'Ilya Novikov',
       email: 'it@noviligx.com',
-      telegram: 'haarping',
+      telegram: 'noviligx',
       twitter: 'noviligx',
       github: 'noviligx',
-      rss: '#',
+      rss: 'rss.xml',
       vk: 'noviligx',
     },
   },
@@ -124,7 +124,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: '' },
+      options: { trackingId: 'UA-178002290-1' },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
