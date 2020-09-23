@@ -60,10 +60,8 @@ export const pageQuery = graphql`
           name
           email
           telegram
-          twitter
           github
           rss
-          vk
         }
       }
     }

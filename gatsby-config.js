@@ -29,10 +29,8 @@ module.exports = {
       name: 'Ilya Novikov',
       email: 'it@noviligx.com',
       telegram: 'noviligx',
-      twitter: 'noviligx',
       github: 'noviligx',
       rss: 'rss.xml',
-      vk: 'noviligx',
     },
   },
   plugins: [
