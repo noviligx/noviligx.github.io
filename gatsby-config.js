@@ -10,7 +10,6 @@ module.exports = {
     title: 'Blog by Ilya Novikov',
     subtitle:
       'Мой персональный блог начинающего веб-разработчика.',
-    copyright: '© 2020.',
     disqusShortname: '',
     menu: [
       {
