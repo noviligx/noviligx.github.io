@@ -19,23 +19,35 @@ class Links extends React.Component {
             <a
               href={`https://www.github.com/${links.github}`}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
             >
               <i className="icon-github" />
             </a>
           </li>
           <li className="links__list-item">
-            <a href={`https://t.me/${links.telegram}`}>
+            <a
+              href={`https://t.me/${links.telegram}`}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
               <i className="icon-paper-plane" />
             </a>
           </li>
           <li className="links__list-item">
-            <a href={`mailto:${links.email}`}>
+            <a
+              href={`mailto:${links.email}`}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
               <i className="icon-mail" />
             </a>
           </li>
           <li className="links__list-item">
-            <a href={links.rss}>
+            <a
+              href={links.rss}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
               <i className="icon-rss" />
             </a>
           </li>
