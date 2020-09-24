@@ -35,10 +35,6 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         subtitle
-        menu {
-          label
-          path
-        }
         author {
           name
           email

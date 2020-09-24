@@ -11,20 +11,6 @@ module.exports = {
     subtitle:
       'Мой персональный блог начинающего веб-разработчика.',
     disqusShortname: '',
-    menu: [
-      {
-        label: 'Статьи',
-        path: '/',
-      },
-      {
-        label: 'Обо мне',
-        path: '/about/',
-      },
-      {
-        label: 'Контакты',
-        path: '/contact/',
-      },
-    ],
     author: {
       name: 'Ilya Novikov',
       email: 'it@noviligx.com',

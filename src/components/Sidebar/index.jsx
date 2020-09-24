@@ -1,7 +1,6 @@
 import React from 'react'
 import get from 'lodash/get'
 import { Link } from 'gatsby'
-import Menu from '../Menu'
 import Links from '../Links'
 import profilePic from '../../pages/photo.jpg'
 import './style.scss'
@@ -12,7 +11,6 @@ class Sidebar extends React.Component {
     const {
       author,
       subtitle,
-      menu,
     } = this.props.data.site.siteMetadata
     const isHomePage = get(location, 'pathname', '/') === '/'
 
@@ -51,7 +49,6 @@ class Sidebar extends React.Component {
         <div className="sidebar__inner">
           <div className="sidebar__author">{authorBlock}</div>
           <div>
-            <Menu data={menu} />
             <Links data={author} />
           </div>
         </div>
