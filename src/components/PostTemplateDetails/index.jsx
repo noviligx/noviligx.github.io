@@ -55,7 +55,7 @@ class PostTemplateDetails extends React.Component {
             />
             <div className="post-single__date">
               <em>
-                {moment(post.frontmatter.date).format('D MMM YYYY')}
+                {moment(post.frontmatter.date).format('DD MMMM YYYY')}
               </em>
             </div>
           </div>

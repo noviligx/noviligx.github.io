@@ -68,7 +68,10 @@ module.exports = {
                       }
                       frontmatter {
                         title
-                        date
+                        date {
+                          formatString: "DD MMMM YYYY"
+                          locale: "ru-RU"
+                        }
                         layout
                         draft
                         description
