@@ -1,4 +1,26 @@
 ---
 label: ds
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: draft
+  type: boolean
+  label: draft
+- name: path
+  type: text
+  config:
+    required: false
+  label: path
