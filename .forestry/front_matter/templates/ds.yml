@@ -24,3 +24,5 @@ fields:
   config:
     required: false
   label: path
+pages:
+- src/pages/fefew.md
